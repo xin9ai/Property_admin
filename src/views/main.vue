@@ -28,6 +28,8 @@ const route = useRoute()
   color: #fff;
 }
 .el-header {
-  background: pink;
+  background: #fff;
+  display: flex;
+  align-items: center;
 }
 </style>

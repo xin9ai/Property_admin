@@ -15,7 +15,7 @@
         />
         <h2>物业管理系统</h2>
       </el-menu-item>
-      <el-menu-item>
+      <el-menu-item index="/dashboard">
         <el-icon><location /></el-icon>首页</el-menu-item
       >
 
