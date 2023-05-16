@@ -6,7 +6,7 @@ const service = new Request({
   interceptors: {
     requestInterceptor: (config) => {
       const token =
-        'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ5YW5nbXIiLCJ1c2VyVHlwZSI6IjEiLCJleHAiOjE2ODQxNTk1NDksImlhdCI6MTY4NDE1Nzc0OTgyMH0.iXl_EU3Hd7dqFQv9N8rcVqop6ekBOrGq1TAGU5tw8s1kaOHxoaLfdUSgDOG8sukgwDmMz0sXTGUvYG_4t-nMsg'
+        'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJUeXBlIjoiMSIsImV4cCI6MTY4NDIwNTAzMiwiaWF0IjoxNjg0MjAzMjMyODYwfQ.bQj-LMwT18jS2rqV0oqF40GSguLD1njPcYYDp-jww9J6b4qjsRPwCcsMlwj4rFZuE53bigucFqLF3h3PS_cIhA'
       if (token) config.headers.token = token
 
       return config

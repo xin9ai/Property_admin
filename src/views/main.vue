@@ -31,5 +31,6 @@ const route = useRoute()
   background: #fff;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 </style>
