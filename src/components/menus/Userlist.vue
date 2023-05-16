@@ -52,6 +52,7 @@
 import { onMounted, ref, reactive, toRef, toRefs } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { Delete, Search, EditPen, Plus } from '@element-plus/icons-vue'
+import { getuserlist } from '@/api/api.ts'
 const router = useRouter()
 const route = useRoute()
 const formInline = reactive({
@@ -92,5 +93,10 @@ const add = (index, row) => {
 const set = (index, row) => {
   console.log(index, row)
 }
+onMounted(() => {
+  getuserlist().then((res) => {
+    console.log(res)
+  })
+})
 </script>
 <style lang="scss" scoped></style>
