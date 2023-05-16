@@ -1,7 +1,7 @@
 import { service } from '@/service'
 interface typeList {
-  loginNme: string
-  phone: number
+  loginNme?: any
+  phone?: any
   curentPage: number
   pageSize: number
   total: number
@@ -10,7 +10,7 @@ interface typeList {
 export const getuserlist = (data: typeList) => {
   return service.request({
     url: '/user/list',
-    method: 'get',
-    data
+    method: 'GET',
+    params: data
   })
 }

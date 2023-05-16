@@ -27,13 +27,16 @@ declare module '@vue/runtime-core' {
     ElMenu: typeof import('element-plus/es')['ElMenu']
     ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
     ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
+    ElSwitch: typeof import('element-plus/es')['ElSwitch']
     ElTable: typeof import('element-plus/es')['ElTable']
     ElTableColumn: typeof import('element-plus/es')['ElTableColumn']
+    ElTag: typeof import('element-plus/es')['ElTag']
     Header: typeof import('./src/components/headers/Header.vue')['default']
     Loginout: typeof import('./src/components/headers/Loginout.vue')['default']
     Menu: typeof import('./src/components/menus/Menu.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Tags: typeof import('./src/components/Tags.vue')['default']
     Userlist: typeof import('./src/components/menus/Userlist.vue')['default']
   }
 }

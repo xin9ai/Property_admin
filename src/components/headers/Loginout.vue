@@ -6,7 +6,7 @@
         alt=""
       />
       <span class="el-dropdown-link">
-        <el-icon class="el-icon--right"><arrow-down /></el-icon>
+        <el-icon class="el-icon--right"><CaretBottom /></el-icon>
       </span>
       <template #dropdown>
         <el-dropdown-menu>

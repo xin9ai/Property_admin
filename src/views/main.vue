@@ -32,5 +32,6 @@ const route = useRoute()
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0px 0px 3px 0px #ddd;
 }
 </style>
