@@ -41,74 +41,77 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: '/houseBuilding',
         name: 'houseBuilding',
-        component: () => import('@/views/Housing/houseBuilding.vue')
+        component: () =>
+          import('@/views/Housing/houseBuilding/houseBuilding.vue')
       },
       {
         path: '/houseUnit',
         name: 'houseUnit',
-        component: () => import('@/views/Housing/houseUnit.vue')
+        component: () => import('@/views/Housing/houseUnit/houseUnit.vue')
       },
       {
         path: '/sysHouseList',
         name: 'sysHouseList',
-        component: () => import('@/views/Housing/sysHouseList.vue')
+        component: () => import('@/views/Housing/sysHouseList/sysHouseList.vue')
       },
       // 车位管理
       {
         path: '/parkList',
         name: 'parkList',
-        component: () => import('@/views/Location/parkList.vue')
+        component: () => import('@/views/Location/parkList/parkList.vue')
       },
       // 业主管理
       {
         path: '/liveUser',
         name: 'liveUser',
-        component: () => import('@/views/Owner/liveUser.vue')
+        component: () => import('@/views/Owner/liveUser/liveUser.vue')
       },
       // 收费管理
       {
         path: '/myPowerFee',
         name: 'myPowerFee',
-        component: () => import('@/views/Payment/myPowerFee.vue')
+        component: () => import('@/views/Payment/myPowerFee/myPowerFee.vue')
       },
       {
         path: '/myWaterFee',
         name: 'myWaterFee',
-        component: () => import('@/views/Payment/myWaterFee.vue')
+        component: () => import('@/views/Payment/myWaterFee/myWaterFee.vue')
       },
       {
         path: '/myParkFee',
         name: 'myParkFee',
-        component: () => import('@/views/Payment/myParkFee.vue')
+        component: () => import('@/views/Payment/myParkFee/myParkFee.vue')
       },
       // 投诉管理
       {
         path: '/userComplaintList',
         name: 'userComplaintList',
-        component: () => import('@/views/complaint/userComplaintList.vue')
+        component: () =>
+          import('@/views/complaint/userComplaintList/userComplaintList.vue')
       },
       {
         path: '/myUserComplaint',
         name: 'myUserComplaint',
-        component: () => import('@/views/complaint/myUserComplaint.vue')
+        component: () =>
+          import('@/views/complaint/myUserComplaint/myUserComplaint.vue')
       },
       // 维修管理
       {
         path: '/repairList',
         name: 'repairList',
-        component: () => import('@/views/maintenance/repairList.vue')
+        component: () => import('@/views/maintenance/repairList/repairList.vue')
       },
       {
         path: '/myRepair',
         name: 'myRepair',
-        component: () => import('@/views/maintenance/myRepair.vue')
+        component: () => import('@/views/maintenance/myRepair/myRepair.vue')
       },
 
       // 公告管理
       {
         path: '/noticeList',
         name: 'noticeList',
-        component: () => import('@/views/charge/noticeList.vue')
+        component: () => import('@/views/charge/noticeList/noticeList.vue')
       }
     ]
   }
