@@ -25,17 +25,17 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: '/sysUserList',
         name: 'sysUserList',
-        component: () => import('@/views/system/sysUserList.vue')
+        component: () => import('@/views/system/sysUserList/sysUserList.vue')
       },
       {
         path: '/sysMenuList',
         name: 'sysMenuList',
-        component: () => import('@/views/system/sysMenuList.vue')
+        component: () => import('@/views/system/sysMenuList/sysMenuList.vue')
       },
       {
         path: '/sysRoleList',
         name: 'sysRoleList',
-        component: () => import('@/views/system/sysRoleList.vue')
+        component: () => import('@/views/system/sysRoleList/sysRoleList.vue')
       },
       // 房屋管理
       {
